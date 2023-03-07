@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.doubly_linked_list.DoublyLinkedList;
 import org.example.linked_list.LinkedList;
+import org.example.queue.Queue;
 import org.example.stack.Stack;
 
 public class Main {
@@ -28,5 +29,11 @@ public class Main {
         stack.pop();
         stack.pop();
         stack.printStack();
+
+        System.out.println("---queue---");
+        Queue queue = new Queue(5);
+        queue.enqueue(4);
+        queue.dequeue();
+        queue.printQueue();
     }
 }
