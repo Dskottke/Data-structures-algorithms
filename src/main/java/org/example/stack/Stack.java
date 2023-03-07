@@ -1,7 +1,6 @@
 package org.example.stack;
 
 public class Stack {
-    int value;
     SNode top;
     int height;
 
