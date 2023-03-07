@@ -137,15 +137,16 @@ public class DoublyLinkedList {
         length++;
         return true;
     }
-    public boolean remove(int index){
-        if(index<0 || index > length){
+
+    public boolean remove(int index) {
+        if (index < 0 || index > length) {
             return false;
         }
-        if(index == 0){
+        if (index == 0) {
             removeFirst();
             return true;
         }
-        if(index == length){
+        if (index == length) {
             removeLast();
             return true;
         }

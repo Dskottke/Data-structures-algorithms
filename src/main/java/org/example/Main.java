@@ -11,11 +11,11 @@ public class Main {
         list.append(6);
         list.reverse();
 
-      DoublyLinkedList doublyLinkedList = new DoublyLinkedList(1);
-      doublyLinkedList.append(5);
-      doublyLinkedList.append(12);
-      doublyLinkedList.insert(1,100);
-      doublyLinkedList.remove(1);
-      doublyLinkedList.printList();
+        DoublyLinkedList doublyLinkedList = new DoublyLinkedList(1);
+        doublyLinkedList.append(5);
+        doublyLinkedList.append(12);
+        doublyLinkedList.insert(1, 100);
+        doublyLinkedList.remove(1);
+        doublyLinkedList.printList();
     }
 }
