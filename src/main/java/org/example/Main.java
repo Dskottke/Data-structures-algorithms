@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.binary_search_tree.BinarySearchTree;
 import org.example.doubly_linked_list.DoublyLinkedList;
 import org.example.linked_list.LinkedList;
 import org.example.queue.Queue;
@@ -35,5 +36,11 @@ public class Main {
         queue.enqueue(4);
         queue.dequeue();
         queue.printQueue();
+
+        System.out.println("---binary-search-tree---");
+        BinarySearchTree binarySearchTree = new BinarySearchTree();
+        binarySearchTree.insert(9);
+        binarySearchTree.insert(4);
+        binarySearchTree.insert(6);
     }
 }
