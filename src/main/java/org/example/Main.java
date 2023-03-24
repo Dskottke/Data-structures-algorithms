@@ -42,5 +42,10 @@ public class Main {
         binarySearchTree.insert(9);
         binarySearchTree.insert(4);
         binarySearchTree.insert(6);
+        binarySearchTree.insert(10);
+        binarySearchTree.insert(22);
+        binarySearchTree.insert(23);
+
+        System.out.println(binarySearchTree.contains(11));
     }
 }

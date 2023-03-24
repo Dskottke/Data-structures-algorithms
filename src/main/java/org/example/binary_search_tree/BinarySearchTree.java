@@ -29,7 +29,23 @@ public class BinarySearchTree {
         }
     }
 
+    public boolean contains(int value) {
+        if (root == null) return false;
+        BstNode temp = root;
+        while (temp != null) {
+            if (temp.value == value) {
+                return true;
+            } else if (value > temp.value) {
+                temp = temp.right;
+            } else {
+                temp = temp.left;
+            }
+        }
+        return false;
+    }
 }
+
+
 
 
 
