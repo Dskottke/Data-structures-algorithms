@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.binary_search_tree.BinarySearchTree;
 import org.example.doubly_linked_list.DoublyLinkedList;
+import org.example.hashtable.HashNode;
+import org.example.hashtable.HashTable;
 import org.example.linked_list.LinkedList;
 import org.example.queue.Queue;
 import org.example.stack.Stack;
@@ -45,7 +47,17 @@ public class Main {
         binarySearchTree.insert(10);
         binarySearchTree.insert(22);
         binarySearchTree.insert(23);
-
         System.out.println(binarySearchTree.contains(11));
+
+        System.out.println("---HashTable---");
+        HashTable hashTable = new HashTable();
+        hashTable.set("nails",1000);
+        hashTable.set("tile",50);
+        hashTable.set("lumber",80);
+        hashTable.set("bolts",200);
+        hashTable.set("screws",140);
+        hashTable.printTable();
+        System.out.println(hashTable.get("lumber"));
+
     }
 }
