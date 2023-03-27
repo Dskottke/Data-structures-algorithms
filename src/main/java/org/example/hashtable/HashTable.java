@@ -1,5 +1,7 @@
 package org.example.hashtable;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class HashTable {
@@ -61,6 +63,20 @@ public class HashTable {
             hash = (hash + asciiValue * 23) % dataMap.length;
         }
         return hash;
+    }
+
+    public List<String> keys() {
+        List<String> allKeys = new ArrayList<>();
+        for (HashNode node : dataMap) {
+            if (node != null) {
+                allKeys.add(node.key);
+                while (node.next != null) {
+                    node = node.next;
+                    allKeys.add(node.key);
+                }
+            }
+        }
+        return allKeys;
     }
 
 }

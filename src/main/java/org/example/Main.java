@@ -8,6 +8,9 @@ import org.example.linked_list.LinkedList;
 import org.example.queue.Queue;
 import org.example.stack.Stack;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("---linked-list---");
@@ -57,6 +60,8 @@ public class Main {
         hashTable.set("bolts",200);
         hashTable.set("screws",140);
         hashTable.printTable();
+        List<String> hashNodes = hashTable.keys();
+        System.out.println(hashNodes);
         System.out.println(hashTable.get("lumber"));
 
     }
