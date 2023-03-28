@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.binary_search_tree.BinarySearchTree;
 import org.example.doubly_linked_list.DoublyLinkedList;
+import org.example.graph.Graph;
 import org.example.hashtable.HashNode;
 import org.example.hashtable.HashTable;
 import org.example.linked_list.LinkedList;
@@ -64,5 +65,19 @@ public class Main {
         System.out.println(hashNodes);
         System.out.println(hashTable.get("lumber"));
 
+        System.out.println("---Graph---");
+        Graph graph = new Graph();
+        graph.addVertex("A");
+        graph.addVertex("B");
+        graph.addVertex("C");
+        graph.addVertex("D");
+        graph.addEdge("A","B");
+        graph.addEdge("A","C");
+        graph.addEdge("A","D");
+        graph.addEdge("C","D");
+        graph.addEdge("B","D");
+        graph.printGraph();
+        graph.removeVertex("D");
+        graph.printGraph();
     }
 }
