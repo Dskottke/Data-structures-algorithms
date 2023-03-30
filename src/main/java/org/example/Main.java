@@ -51,7 +51,9 @@ public class Main {
         binarySearchTree.insert(10);
         binarySearchTree.insert(22);
         binarySearchTree.insert(23);
-        System.out.println(binarySearchTree.contains(11));
+        binarySearchTree.deleteNode(22);
+        System.out.println(binarySearchTree.contains(44));
+
 
         System.out.println("---HashTable---");
         HashTable hashTable = new HashTable();
