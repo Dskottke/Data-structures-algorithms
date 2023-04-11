@@ -1,4 +1,4 @@
-package org.example.graph;
+package org.example.datastructure.binary_search_tree.graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;

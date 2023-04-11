@@ -1,4 +1,4 @@
-package org.example.stack;
+package org.example.datastructure.binary_search_tree.stack;
 
 
 public class SNode {

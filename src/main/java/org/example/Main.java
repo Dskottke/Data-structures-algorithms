@@ -1,15 +1,13 @@
 package org.example;
 
-import org.example.binary_search_tree.BinarySearchTree;
-import org.example.doubly_linked_list.DoublyLinkedList;
-import org.example.graph.Graph;
-import org.example.hashtable.HashNode;
-import org.example.hashtable.HashTable;
-import org.example.linked_list.LinkedList;
-import org.example.queue.Queue;
-import org.example.stack.Stack;
+import org.example.datastructure.binary_search_tree.BinarySearchTree;
+import org.example.datastructure.binary_search_tree.doubly_linked_list.DoublyLinkedList;
+import org.example.datastructure.binary_search_tree.graph.Graph;
+import org.example.datastructure.binary_search_tree.hashtable.HashTable;
+import org.example.datastructure.binary_search_tree.linked_list.LinkedList;
+import org.example.datastructure.binary_search_tree.queue.Queue;
+import org.example.datastructure.binary_search_tree.stack.Stack;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {

@@ -1,4 +1,4 @@
-package org.example.linked_list;
+package org.example.datastructure.binary_search_tree.linked_list;
 
 import java.util.NoSuchElementException;
 

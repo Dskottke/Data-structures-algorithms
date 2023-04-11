@@ -1,4 +1,4 @@
-package org.example.hashtable;
+package org.example.datastructure.binary_search_tree.hashtable;
 
 public class HashNode {
     String key;

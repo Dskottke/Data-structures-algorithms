@@ -1,4 +1,4 @@
-package org.example.doubly_linked_list;
+package org.example.datastructure.binary_search_tree.doubly_linked_list;
 
 public class DoublyLinkedList {
     private DNode head;

@@ -1,4 +1,4 @@
-package org.example.binary_search_tree;
+package org.example.datastructure.binary_search_tree;
 
 public class BinarySearchTree {
     private BstNode root;

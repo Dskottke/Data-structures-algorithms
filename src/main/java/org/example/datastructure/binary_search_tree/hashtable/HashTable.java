@@ -1,4 +1,4 @@
-package org.example.hashtable;
+package org.example.datastructure.binary_search_tree.hashtable;
 
 import java.util.ArrayList;
 import java.util.List;

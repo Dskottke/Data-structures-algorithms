@@ -1,4 +1,4 @@
-package org.example.queue;
+package org.example.datastructure.binary_search_tree.queue;
 
 public class Queue {
     QNode first;
