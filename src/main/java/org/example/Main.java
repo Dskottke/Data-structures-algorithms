@@ -1,12 +1,12 @@
 package org.example;
 
 import org.example.datastructure.binary_search_tree.BinarySearchTree;
-import org.example.datastructure.binary_search_tree.doubly_linked_list.DoublyLinkedList;
-import org.example.datastructure.binary_search_tree.graph.Graph;
-import org.example.datastructure.binary_search_tree.hashtable.HashTable;
-import org.example.datastructure.binary_search_tree.linked_list.LinkedList;
-import org.example.datastructure.binary_search_tree.queue.Queue;
-import org.example.datastructure.binary_search_tree.stack.Stack;
+import org.example.datastructure.doubly_linked_list.DoublyLinkedList;
+import org.example.datastructure.graph.Graph;
+import org.example.datastructure.hashtable.HashTable;
+import org.example.datastructure.linked_list.LinkedList;
+import org.example.datastructure.queue.Queue;
+import org.example.datastructure.stack.Stack;
 
 import java.util.List;
 

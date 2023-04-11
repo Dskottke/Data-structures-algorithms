@@ -1,4 +1,4 @@
-package org.example.datastructure.binary_search_tree.doubly_linked_list;
+package org.example.datastructure.doubly_linked_list;
 
 public class DNode {
     int value;
