@@ -51,6 +51,8 @@ public class Main {
         binarySearchTree.insert(23);
         binarySearchTree.deleteNode(22);
         System.out.println(binarySearchTree.contains(44));
+        List<Integer> bfsList = binarySearchTree.BFS();
+        System.out.println(bfsList);
 
 
         System.out.println("---HashTable---");
