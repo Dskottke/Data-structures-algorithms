@@ -50,18 +50,20 @@ public class Main {
         binarySearchTree.insert(22);
         binarySearchTree.insert(23);
         binarySearchTree.deleteNode(22);
-        System.out.println(binarySearchTree.contains(44));
-        List<Integer> bfsList = binarySearchTree.BFS();
-        System.out.println(bfsList);
+        System.out.println("contains? : " + binarySearchTree.contains(44));
+        System.out.println("BFS : " + binarySearchTree.BFS());
+        System.out.println("DFSPreOrder : " + binarySearchTree.DFSPreOrder());
+        System.out.println("DFSPostOrder: " + binarySearchTree.DFSPostOrder());
+        System.out.println("DFSInOrder: " + binarySearchTree.DFSInOrder());
 
 
         System.out.println("---HashTable---");
         HashTable hashTable = new HashTable();
-        hashTable.set("nails",1000);
-        hashTable.set("tile",50);
-        hashTable.set("lumber",80);
-        hashTable.set("bolts",200);
-        hashTable.set("screws",140);
+        hashTable.set("nails", 1000);
+        hashTable.set("tile", 50);
+        hashTable.set("lumber", 80);
+        hashTable.set("bolts", 200);
+        hashTable.set("screws", 140);
         hashTable.printTable();
         List<String> hashNodes = hashTable.keys();
         System.out.println(hashNodes);
@@ -73,11 +75,11 @@ public class Main {
         graph.addVertex("B");
         graph.addVertex("C");
         graph.addVertex("D");
-        graph.addEdge("A","B");
-        graph.addEdge("A","C");
-        graph.addEdge("A","D");
-        graph.addEdge("C","D");
-        graph.addEdge("B","D");
+        graph.addEdge("A", "B");
+        graph.addEdge("A", "C");
+        graph.addEdge("A", "D");
+        graph.addEdge("C", "D");
+        graph.addEdge("B", "D");
         graph.printGraph();
         graph.removeVertex("D");
         graph.printGraph();
